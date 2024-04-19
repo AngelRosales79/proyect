@@ -1,0 +1,28 @@
+.custom-button{
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border-radius: 7px;
+    user-select: none;
+    margin: 4px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 2px 3px 3px 2px rgba(0, 0, 0, 0.7); 
+}
+.custom-button:hover{
+    background: #f5ed17;
+    transition: background 0.3s, transform 0.4;
+}
+.custom-button:active{
+    background: #c5c4ad;
+    transform: scale(0.95);
+}
+.custom-button.success{
+    background: #80FF80;
+}
+.custom-button.success.hover{
+    background: #65d9e9;
+}
+.custom-button.success.active{
+    background: #eb9030;
+}
